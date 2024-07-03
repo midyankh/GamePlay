@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\background5.jpg" />
+    <None Remove="Images\backgrounduser.jpg" />
+    <None Remove="Images\cargameimage.jpg" />
+    <None Remove="Images\currencyimage3.jpg" />
+    <None Remove="Images\square1.jpeg" />
+    <None Remove="Images\square2.png" />
+    <None Remove="Images\tetrisimage.jpg" />
+    <None Remove="Images\todolistimage.jpg" />
+    <None Remove="Images\uiimage1.jpg" />
+    <None Remove="Images\userimage.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\background5.jpg" />
+    <Resource Include="Images\backgrounduser.jpg" />
+    <Resource Include="Images\cargameimage.jpg" />
+    <Resource Include="Images\currencyimage3.jpg" />
+    <Resource Include="Images\square1.jpeg" />
+    <Resource Include="Images\square2.png" />
+    <Resource Include="Images\tetrisimage.jpg" />
+    <Resource Include="Images\todolistimage.jpg" />
+    <Resource Include="Images\uiimage1.jpg" />
+    <Resource Include="Images\userimage.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Projects\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Tetris\Tetris\Tetris.csproj" />
+  </ItemGroup>
+
+</Project>
